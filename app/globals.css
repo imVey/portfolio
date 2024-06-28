@@ -31,3 +31,21 @@ body {
     text-wrap: balance;
   }
 }
+header {
+  background: #9a9a9a;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
