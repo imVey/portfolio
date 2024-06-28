@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="footer bg-slate-100">
-      <div className="flex gap-52 mt-10 mb-10 ml-80">
+    <footer className="footer bg-transparent pb-5 ">
+      <div className="flex gap-52 mt-10 mb-20  ml-80">
         <section className="flex flex-col items-start mt-10">
           <a href="/terms-of-service">Terms of Service </a>
           <a href="/privacy-policy">Privacy Policy </a>
