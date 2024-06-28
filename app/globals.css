@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 76, 0, 153;
+  --background-end-rgb: 25, 0, 51;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -32,7 +32,7 @@ body {
   }
 }
 header {
-  background: #9a9a9a;
+  background: transparent;
   padding: 1rem;
   position: sticky;
   top: 0;
@@ -46,6 +46,5 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: white;
   text-decoration: none;
 }
