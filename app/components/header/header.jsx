@@ -3,9 +3,14 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className=" bg-slate-200">
+    <header>
       <nav>
         <ul>
+          <li>
+            <div className=" h-10 w-10 ">
+              <img src="/mb.png" alt="Logo" />
+            </div>
+          </li>
           <li>
             <Link href="/">Home</Link>
           </li>
