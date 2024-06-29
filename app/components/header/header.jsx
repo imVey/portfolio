@@ -7,9 +7,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <div className=" h-10 w-10 ">
-              <img src="/mb.png" alt="Logo" />
-            </div>
+            <img className=" w-10 object-contain" src="/mb.png" alt="Logo" />
           </li>
           <li>
             <Link href="/">Home</Link>
