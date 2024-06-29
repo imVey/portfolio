@@ -10,12 +10,31 @@ const Presentation = () => {
         <h1 className="presentation__title font-bold">Hello, I'm</h1>
         <h2 className="presentation__subtitle">Marwan</h2>
         <p className="presentation__description">
-          Software Developer &amp; Web Developer..
+          Software Developer &amp; Mobile Developer..
         </p>
         <div className="presentation__buttons">
-          <Link href="/projects">View Projects</Link>
-          <Link href="/contact">Contact Me</Link>
+          <Link
+            href="/projects"
+            className="projects no-underline hover:underline"
+          >
+            Projects{" "}
+          </Link>
+          <Link
+            href="/contact"
+            className="contact no-underline hover:underline"
+          >
+            Contact Me
+          </Link>
         </div>
+      </div>
+      <div className="button-container">
+        <a
+          className=" bg-violet-500 rounded-sm p-3 hover:bg-violet-700 "
+          href="/public/New CV Marwan BELLA.pdf"
+          download={"New CV Marwan BELLA.pdf"}
+        >
+          Télécharger mon CV
+        </a>
       </div>
     </div>
   );
