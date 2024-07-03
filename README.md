@@ -2,6 +2,12 @@ This is a project for my portfolio and for this one i will use NextJS.
 
 ## Getting Started
 
+First, install dependences:
+
+```bash
+npm  install
+```
+
 First, run the development server:
 
 ```bash
