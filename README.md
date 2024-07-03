@@ -8,7 +8,7 @@ First, install dependences:
 npm  install
 ```
 
-First, run the development server:
+After that, run the development server:
 
 ```bash
 npm run dev
