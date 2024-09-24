@@ -2,7 +2,13 @@ This is a project for my portfolio and for this one i will use NextJS.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependences:
+
+```bash
+npm  install
+```
+
+After that, run the development server:
 
 ```bash
 npm run dev
