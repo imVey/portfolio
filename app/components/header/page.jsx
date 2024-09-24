@@ -13,10 +13,10 @@ const Header = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/projects">Projets</Link>
+            <Link href={{ pathname: "/", hash: "#projets" }}>Projets</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href={{ pathname: "/", hash: "#contact" }}>Contact</Link>
           </li>
         </ul>
       </nav>

@@ -30,7 +30,7 @@ const Presentation = () => {
       <div className="button-container">
         <a
           className=" bg-violet-500 rounded-sm p-3 hover:bg-violet-700 "
-          href="/public/New CV Marwan BELLA.pdf"
+          href="/public/MB.cv.pdf"
           download={"New CV Marwan BELLA.pdf"}
         >
           Télécharger mon CV

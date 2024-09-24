@@ -13,9 +13,27 @@ const Footer = () => {
           <a href="/contact">Contact </a>
         </section>
         <section className="flex flex-col items-start mt-10">
-          <a href="https://github.com/imVey">GitHub </a>
-          <a href="https://www.linkedin.com/in/bellamarwan/">LinkedIn </a>
-          <a href="https://twitter.com/">Twitter </a>
+          <a
+            href="https://github.com/imVey"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub{" "}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/bellamarwan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn{" "}
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter{" "}
+          </a>
         </section>
       </div>
       <p className="mt-10 flex flex-col items-center">
